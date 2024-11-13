@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Básica</title>
+    <title>Mi Página Personal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>¡Bienvenido a mi página web!</h1>
-    <p>Esta es una página de prueba básica.</p>
-    <button onclick="showMessage()">Haz clic aquí</button>
+    <header>
+        <h1>Hola, soy [Tu Nombre]</h1>
+        <p>Bienvenido a mi página web personal</p>
+    </header>
+
+    <div class="container">
+        <!-- Introducción -->
+        <section class="section" id="introduccion">
+            <h2>Introducción</h2>
+            <p>Hola, soy [Tu Nombre], un apasionado de la tecnología y el desarrollo web. Me encanta aprender cosas nuevas y compartir mis conocimientos con los demás. En esta página, podrás conocer un poco más sobre mí, ver algunos de mis proyectos y contactar conmigo.</p>
+        </section>
+
+        <!-- CV -->
+        <section class="section" id="cv">
+            <h2>Mi CV</h2>
+            <ul>
+                <li><strong>Educación:</strong> Universidad de [Tu Universidad] - [Tu Carrera]</li>
+                <li><strong>Experiencia:</strong> Desarrollador Web en [Empresa], [Año]-Presente</li>
+                <li><strong>Habilidades:</strong> HTML, CSS, JavaScript, React, Node.js</li>
+                <li><strong>Idiomas:</strong> Español (Nativo), Inglés (Intermedio)</li>
+            </ul>
+        </section>
+
+        <!-- Portafolio -->
+        <section class="section" id="portafolio">
+            <h2>Mi Portafolio</h2>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+        </section>
+
+        <!-- Redes Sociales -->
+        <section class="section" id="social">
+            <h2>Redes Sociales</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/tu-perfil" target="_blank">Twitter</a>
+                <a href="https://github.com/tu-perfil" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
 
     <script src="script.js"></script>
 </body>

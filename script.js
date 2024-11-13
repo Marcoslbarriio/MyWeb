@@ -1,4 +1,4 @@
-// Función para mostrar un mensaje
-function showMessage() {
-    alert("¡Hola! Gracias por visitar mi página.");
-}
+// Funcionalidad JS, si es necesario
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Página cargada correctamente");
+});
